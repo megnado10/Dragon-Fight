@@ -1,0 +1,90 @@
+#clickerContainer{
+    flex-direction: row;
+    padding: 50px; 
+    width: 20%;
+
+}
+
+body{
+    margin: 0px;
+    font-size: 24pt;
+    font-family:'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.labelRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+}
+
+.label{
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+#labelDragon{
+    font-size: 24pt;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header-link{
+    font-size: 28pt;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(108, 7, 7);
+    color: white;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(48, 0, 0);
+    
+}
+
+.header-link:hover{
+    padding: 22px 42px;
+    background-color: rgb(204, 0, 0);
+
+}
+
+#dragonElim{
+    background-image: url("./images/dragon.png");
+    min-height: 500px;
+    min-width: 500px;
+    background-size: cover;
+    grid-row: auto;
+    padding: 30px;
+    background-color: rgb(201, 0, 0);
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+
+#dragonElim:hover{
+    background-color: rgb(107, 0, 0);
+    cursor: pointer;
+}
+

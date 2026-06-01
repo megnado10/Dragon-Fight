@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./arena.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <div class="header-links">
+            <a class="header-link" href="./arena.html" id="arenaButton" >
+                Arena
+            </a>
+            <a class="header-link" href="./shop.html" id="shopButton">
+                Shop
+            </a>
+            <a class="header-link" href="./boss.html" id="bossButton">
+                Boss!
+            </a>
+            </div>
+            <div class="labelRow" id="clickerContainer">
+                    <div class="label">Money:</div>
+                    <div class="money" id="moneyOwned">0</div>
+            </div>
+
+            <div class="labelRow" id="clickerContainer">
+                    <div class="label">Power:</div>
+                    <div class="power" id="powerOwned">0</div>
+            </div>
+        </header>
+        <main>
+            <div class="grid">
+                
+                <div class="column-header" style="grid-column: 1 / 4">
+                    Arena
+                </div>
+            
+                <div class="grid-cell">
+                    <input type="button" id="bugElim">
+                    <p id="labelBug">Power Required: 0</p>
+                </div>
+                <div class="grid-cell">
+                    <input type="button" id="lizardElim">
+                    <p id="labelLizard">Power Required: 10</p>
+                </div>
+
+                <div class="grid-cell">
+                    <input type="button" id="hogElim">
+                    <p id="labelHog">Power Required: 100</p>
+                </div> 
+                <div class="grid-cell">
+                    <input type="button" id="kangarooElim">
+                    <p id="labelKangaroo">Power Required: 1,000</p>
+                </div>
+                <div class="grid-cell">
+                    <input type="button" id="bullElim">
+                    <p id="labelBull">Power Required: 10,000</p>
+                </div>
+
+                <div class="grid-cell">
+                    <input type="button" id="polarBearElim">
+                    <p id="labelPolarBear">Power Required: 100,000</p>
+                </div>
+    
+            </div>
+        </main>
+        <script src="./arena.js"></script>
+    </body>
+</html>
